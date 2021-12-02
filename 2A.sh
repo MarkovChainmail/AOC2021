@@ -8,13 +8,13 @@ do
 
    case $a1 in
     forward*) 
-        $((hor+=$a2))
+        : $((hor+=$a2))
         ;;
     down*)
-        $((vert+=$a2))
+        : $((vert+=$a2))
         ;;
     up*)
-        $((vert-=$a2))
+        : $((vert-=$a2))
         ;;
     *)
         echo "???"

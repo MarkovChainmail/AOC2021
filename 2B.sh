@@ -9,14 +9,14 @@ do
 
    case $a1 in
     forward*) 
-        $((hor+=$a2))
-	$((vert+=$aim*$a2))
+        : $((hor+=$a2))
+	: $((vert+=$aim*$a2))
         ;;
     down*)
-        $((aim+=$a2))
+        : $((aim+=$a2))
         ;;
     up*)
-        $((aim-=$a2))
+        : $((aim-=$a2))
         ;;
     *)
         echo "???"
