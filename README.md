@@ -1,1 +1,1 @@
-Except for the first one, run files using `input.txt | ./solutionfile.sh`
+Run files using `input.txt | ./solutionfile.sh`, where input.txt is the puzzle input
